@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+</head>
+<body>
+<body bgcolor="sky blue"></body>
+<h1>Audio</h1>
+<h2>From Online</h2>
+<audio src="https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3"
+controls
+muted
+loop
+autoplay
+preload="metadata"></audio>
+<h3>From Laptop</h3>   
+<audio src="audio1.mp3"
+controls
+muted
+autoplay
+loop
+preload="metadata"></audio>
+</body>
+</html>
