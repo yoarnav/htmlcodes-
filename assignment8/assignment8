@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+<h1>Application Form</h1>
+<fieldset>
+    <legend>Personal Details</legend>
+    <form action="" method="">
+        <label for="user">Name   </label>
+        <input  type ="text" name="user" id="user" placeholder="Enter Your Name here" required />
+        <br>
+        <br>
+        <label for='emailid'>Email</label>
+        <input type="email" name="emailid" id="email" required placeholder="xyz@gmail.com"/>
+
+        <br>
+        <br>
+        <label for="password">Password </label>
+        <input type="password" name="password"id="pass" required placeholder="0102"/>
+        <br>
+        <br>
+        <label for="DOB">date of birth </label>
+        <input type="date" name="dob" id="dob" placeholder="01/01/2001"/>
+        <br>
+        <br>
+        <label for="tel">Telephone</label>
+        <input type="tel" name="Number" id="Number" required placeholder="1234567890" >
+        <br>
+    <br>
+    <label for="Gender">Gender</label>
+    
+    <input type="radio" name="Gender" id="Gender"/>
+    Male
+    <input type="radio" name="Gender" id="Gender"/>
+    Female
+    <input type="radio" name="Gender" id="Gender"/>
+    Others
+</fieldset>
+
+
+<fieldset>
+    <legend>Eductaional Details</legend>
+      <label for="School">School Name</label>
+    <input type="text" name="school" id="School"/>
+    <br>
+    <label for="stream"> Your Stream</label>
+    <select name="stream" id="stream" placeholder="Stream">
+    <option value="PCM">PCM</option>
+    <option value="PCB">PCB</option>
+    <option value="Humanities">Humanities</option>
+    <option value="Pinacle">Pinacle</option>
+    <option value="PCMB">PCMB</option>
+    <option value="Commerce">Commerce</option>
+</select>
+    <br>
+    <br>
+    <label for="Class">Class</label>
+    <input type="number" name="Class " id="Class"/>
+    <br>
+    <br>
+    <label for="School Leaving">School Leaving Certificate</label>
+    <input type="file" name="slc" id="schoolleave"/>
+    <br>
+    <br>
+    <label for="Marks Sheet">Mark Sheet</label>
+    <input type="file" name="slc" id="marks"/>
+    
+</fieldset>
+<br>
+<br>
+<br>
+<fieldset>
+    <legend>Hobbies</legend>
+    <label for="Color">Color</label>
+    <input type="color" name="Color" id="color">
+    <br>
+    
+    <label for="Hobbies">Your Hobbies</label>
+    <input type="text" name="hobby" id="hobby"/>
+</fieldset>
+
+<br>
+<br>
+
+    <input type="submit" value="Submit Form">
+</form>
+</body>
+</html>
