@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS 2</title>
+</head>
+<body>
+
+    <h1>Reservation Request</h1>
+
+    <form >
+        <fieldset>
+        
+            <legend>General Information </legend>
+            <label for="user">Name   </label>
+        <input  type ="text" name="user" id="user" placeholder="Enter Your Name here" required />
+        <br>
+        <br>
+        <label for='emailid'>Email</label>
+        <input type="email" name="emailid" id="email" required placeholder="xyz@gmail.com"/>
+        <label for="password">Password </label>
+        <input type="password" name="password"id="pass" required placeholder="0000"/>
+        <br>
+        <br>
+        <label for="DOB">date of birth </label>
+        <input type="date" name="dob" id="dob" placeholder="01/01/2001"/>
+        <br>
+        <br>
+        <label for="tel">Telephone</label>
+        <input type="tel" name="Number" id="Number" required placeholder="1234567890" >
+       <br>
+       <br>
+       <label>Select list</label>
+             <select id = "myList">
+               <option value = "1">1</option>
+               <option value = "2">2</option>
+               <option value = "3">3</option>
+               <option value = "4">4</option>
+             </select>
+
+        <br>
+        <br>
+        </fieldset>
+        <fieldset>
+            <legend>PREFRENCES</legend>
+            <label for="ROOM TYPE">Room type</label>
+    
+    <input type="radio" name="Room type" id="Room type">
+    Standard
+    <input type="radio" name="Room type" id="Room type"/>
+    Deluxe
+    <input type="radio" name="Room type" id="Room type">
+    Suite
+    <br>
+    <label for="bed TYPE">Bed type</label>
+    
+    <input type="radio" name="bed type" id="bed type"/>
+    King
+    <input type="radio" name="bed type" id="bed type">
+    Double
+    <br>
+    <br>
+    <label for="bed TYPE">FOOD PREFRENCE</label>
+    <input type="radio" name="food" id="food">
+    Standard
+    <input type="radio" name="food" id="food"/>
+    Deluxe
+    <input type="radio" name="food" id="food">
+    Suite
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Distance Information</legend>
+
+
+            <label for="fuel">FUEL METER</label>
+            <br>
+            <meter name="" id="fuel" min="0" max="100" value="100"
+            low="20"
+            high="60"
+            optimum="80"></meter>
+            
+            <h3>Progress </h5>
+            <progress id="progress" name="prog" max="100" value="67">progress</progress>
+        </fieldset>
+        <br>
+        <br>
+
+        <input type="submit" value="Submit Form">
+            <br>
+            <br>
+    </form>
+    
+</body>
+</html>
