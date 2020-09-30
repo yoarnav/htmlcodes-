@@ -1,0 +1,26 @@
+.one{
+    color:teal;
+    text-align: center;
+    background-color: #333;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 2px 3px 6px;
+    font-size: 50px;
+    font-family: cursive;
+
+}
+.two{
+    color: yellowgreen;
+    text-decoration: line-through underline;
+}
+.three{
+    color: cyan;
+}
+.four{
+    color: red;
+}
+.five{
+    color: green;
+}
