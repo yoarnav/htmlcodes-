@@ -1,0 +1,36 @@
+.h1{
+    word-spacing: 10px;
+    text-align: center;
+}
+
+    
+  
+
+
+.about{
+    text-align: center;
+    border-color:orange;
+    border-style: dashed;
+    border: width 10px;
+    background-color: white;
+}
+.i{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    border-color: red;
+    border-style: dotted;
+}
+.h2{
+    text-align: center;
+}
+
+.his{
+    border-width: 10px;
+    border-color: white;
+    border-style: double;
+    background-color: white;
+    border-color: blue;
+    text-align: middle;
+}
