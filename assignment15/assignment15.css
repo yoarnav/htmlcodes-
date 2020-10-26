@@ -1,0 +1,17 @@
+input:hover{
+     background-color: yellow;
+}
+input:focus{
+    background-color: green;
+    border: 4px;
+    border-style: solid;
+}
+input[type="radio"]:hover{
+    box-shadow: 0 0 0 2px yellowgreen;
+}
+input[type="submit"]:hover{
+    background-color:  royalblue;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+}
